@@ -1,0 +1,11 @@
+query AllUsers{
+  users {
+    id
+    email
+    firstName
+    lastName
+    userType
+    status
+    invite
+  }
+}
